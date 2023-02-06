@@ -1,4 +1,4 @@
-# Genome Browsers
+# Multiple genomes with custom data
 
 Genomic browsers are useful to visualize genomic data, ether public or custom data uploaded to the desired browser, but they have some limitations.
 
@@ -21,6 +21,8 @@ To adress the issue of visualizing different genomes there are some browsers tha
 * Is limited to gene annotations, so it does not include repeats or regulatory elements. 
 * Does not allow to upload custom data, such as "bigwig" or "bed" files. 
 
+Instead, ENSEMBL Browser (explained below) has a lot of features that solve these problems.
+
 # ENSEMBL Genome Browser
 
 The [ENSEMBL Browser](http://www.ensembl.org/index.html) has all the ENSEMBL data available, which means:
@@ -30,9 +32,9 @@ The [ENSEMBL Browser](http://www.ensembl.org/index.html) has all the ENSEMBL dat
 * RepeatMasker (and other) tracks are available, so it is possible to visualize repeats.
 * ...
 
-Furthermore, the ENSEMBL Browser has the option to upload data in different formats (up to 20MB), including BigWig, BED, BedGraph.
+Furthermore, the ENSEMBL Browser has the option to upload data in different formats (up to 20MB), including BigWig, BED, BedGraph...
 
-Nevertheless, it is quite difficult, specially if the aim is to visualize several genomes including custom data. For this reason, I decided to write a "tutorial" to use it and don't forget how to use it. 
+Nevertheless, it is quite "difficult", specially if the aim is to visualize several genomes including custom data. For this reason, I decided to write a "tutorial" to use it and don't forget how to use it. 
 
 ## Select the genome
 
@@ -103,11 +105,10 @@ The interesting thing here is that we can **upload and visualiuze custom data**:
 
 4. In the window to add custom tracks, either:
 
-    + Copy and paste the desired data to the text box, select the format of the data and click **Add data**
-    + Upload the file with the desired data, select its format (e.g., Bedgraph, Bigwig...) and click **Add data**
+    + Copy and paste the desired data to the text box, select the format of the data and click **Add data** (max. size 20MB, so data may have to be subset).
+    + Upload the file with the desired data, select its format (e.g., Bedgraph, Bigwig...) and click **Add data** (max. size 20MB, so data may have to be subset).
 
 5. Repeat the process for all the species shown.
 6. Explore the desired regions.
-
-For each custom track, the **max. size is 20MB**, so in most cases we will have to subset the data.
+7. Export the image.
 
