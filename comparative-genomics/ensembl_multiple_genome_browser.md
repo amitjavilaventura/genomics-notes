@@ -36,7 +36,7 @@ Furthermore, the ENSEMBL Browser has the option to upload data in different form
 
 Nevertheless, it is quite "difficult", specially if the aim is to visualize several genomes including custom data. For this reason, I decided to write a "tutorial" to use it and don't forget how to use it. 
 
-## Select the genome
+## 1. Select the genome
 
 Go te the ENSEMBL web site: http://www.ensembl.org/index.html
 
@@ -47,7 +47,7 @@ Select the genome you want to study (have in mind that it will be the assembly c
 
 Once the genome has been selected (I selected the mouse *GRCm39*), several options will appear (e.g., **Search** genes, look at the **Genome assembly**, do **Comparative genomics**, ...)
 
-## Explore the browser
+## 2. Explore the browser
 
 To go to the browser, either *Search* a gene or click to *Example region*.
 
@@ -74,7 +74,7 @@ In the left menu, there are a lot of features to display in the genome (**Local-
 
 In the browser windows shown in each tab of the menu, we can configure the visualized tracks by clicking the *Add/remove tracks* button.
 
-## Compare regions
+## 3. Compare regions
 
 Once in the browser, click **Region Comparison** in the left menu.
 
