@@ -60,7 +60,7 @@ In the left menu, there are a lot of features to display in the genome (**Local-
     + Synteny: shows the synteny of a chromosome between the current species and another one.
     + Alignments (image): shows the alignment of the current region between the current species and others, depening on the selected species in the multiple alignment (e.g., 21 murinae EPO). It includes the synteny of the regions between species.
     + Alignments (text): similar as *Aligments (image)* but with text and less detail.
-    + **Region Comparison**: it allows to compare a region between different species and the current species, including the visualization of custom data for each of these species.
+    + **Region Comparison**: it allows to compare a region between different species and the current species, including the visualization of custom data for each of these species. The comparisons are pair-wise compared to the current species.
 
 * Genetic Variation:
 
@@ -70,8 +70,44 @@ In the left menu, there are a lot of features to display in the genome (**Local-
 
 * ...
 
+In the browser windows shown in each tab of the menu, we can configure the visualized tracks by clicking the *Add/remove tracks* button.
+
 ## Compare regions
 
 Once in the browser, click **Region Comparison** in the left menu.
 
+To select the desired species:
+
+1. Click **Select species or regions**
+2. Select the *Division* of the species (e.g. *rodents* > *rats and mice* > desired species)
+3. Select the desired species (e.g. Ryukyu mouse, Shrew mouse, ...) and click **Apply**.
+
+In the main window, different browsers will appear:
+
+* The top one will show the region being compared in all the selected species and surrounding regions, without entering into much detail. 
+* The bottom one (the interesting one) will show the alignment of the region being compared (red rectangle in the top browser). 
+
+In the bottom browser, we will se the alignments of the region being compared in different assemblies. The comparisons will be pairwise between all the species and the current species. This means that:
+
+* if two species are selected, the current species will appear on the middle of these two species. 
+* if more than two species are selected, the track of the current species (e.g., GRCm39) will be duplicated, triplicated, etc, to show the alignment with all the species. (The regions are the same, so they can be removed from the exported image if necesseary). 
+
+The interesting thing here is that we can **upload and visualiuze custom data**:
+
+1. Click at the **Add/remove tracks** button (in the bottom browser).
+2. Select the **Species to configure**.
+3. Click at **Custom tracks** at the left menu or the **Personal data** at the top menú:
+
+    + If not data from the selected species is uploaded, the window to upload the data will appear.
+    + If data from the selected species is uploaded, a list of the uploaded tracks will appear. Click **Add new data** to go to the *uploading window*
+
+4. In the window to add custom tracks, either:
+
+    + Copy and paste the desired data to the text box, select the format of the data and click **Add data**
+    + Upload the file with the desired data, select its format (e.g., Bedgraph, Bigwig...) and click **Add data**
+
+5. Repeat the process for all the species shown.
+6. Explore the desired regions.
+
+For each custom track, the **max. size is 20MB**, so in most cases we will have to subset the data.
 
