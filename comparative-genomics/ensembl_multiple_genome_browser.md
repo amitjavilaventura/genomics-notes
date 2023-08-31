@@ -26,7 +26,7 @@ Once the genome has been selected (I selected the mouse *GRCm39*), several optio
 
 To go to the browser, either *Search* a gene or click to *Example region*.
 
-In the left menu, there are a lot of features to display in the genome (**Local-based displays**). Each of them may change a little based how the broser has opened and which tracks are loaded:
+In the left menu, there are a lot of features to display in the genome (**Location-based displays**). Each of them may change a little based how the broser has opened and which tracks are loaded:
 
 * Whole genome: shows all the chromosomes, and may show the localization of custom data if loaded.
 * Chromosome summary: shows the current chromosome with the frequency of genes, non coding genes, repeats, etc. in each location.
