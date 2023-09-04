@@ -82,6 +82,7 @@ The interesting thing here is that we can **upload and visualiuze custom data**:
 
     + Copy and paste the desired data to the text box, select the format of the data and click **Add data** (max. size 20MB, so data may have to be subset).
     + Upload the file with the desired data, select its format (e.g., Bedgraph, Bigwig...) and click **Add data** (max. size 20MB, so data may have to be subset).
+    + Write the URL to an external dataset.
 
 5. Repeat the process for all the species shown.
 6. Explore the desired regions.
